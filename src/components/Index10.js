@@ -15,6 +15,15 @@ import Header from './Header';
         2.通过this.refs.header 获取整个子组件实例（dom组件，加载完成以后获取）
 
 */
+
+/**
+ * defaultProps 父组件传递中，如果父组件调用子组件的时候，不给子组件传值，可以在子组件中使用defaultProps定义默认的值
+ * propTypes  验证父组件传值的类型的合法性
+ *  (1) 引入import PropTypes from 'prop-type';
+ *  (2) 类.propTypes = {              // 通过propsTypes定义父组件给子组件传值的类型
+ *          name:PropTypes.string
+ *      }
+ */
 class Index10 extends Component{
     constructor(props){
         super(props);

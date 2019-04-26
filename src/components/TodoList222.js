@@ -78,6 +78,7 @@ class TodoList222 extends Component{
                                 </div>
                                 )
                             }
+                            return false;
                         })
                     }
                 </ul>
@@ -95,6 +96,7 @@ class TodoList222 extends Component{
                                 
                                 )
                             }
+                            return false;
                         })
                     }
                 </ul>
