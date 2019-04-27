@@ -35,6 +35,9 @@ class Data1 extends Component{
             console.log(ex);
         });
     }
+    componentDidMount(){
+
+    }
     render(){
         return(
             <div>
